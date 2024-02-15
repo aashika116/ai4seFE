@@ -1,0 +1,59 @@
+.login{
+    display: flex ;
+    flex-direction: row;
+    height: 100vh;
+
+    .left-panel{
+        width: 50%;
+        height: 100%;
+    }
+    .right-panel{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            align-items: center;
+            justify-content: center;
+
+            input{
+                width:70%;
+                height:40px;
+                border: none;
+                border-bottom: 1px solid;
+                font-size: 16px;
+                margin-top: 5%;
+            }
+            input:focus {
+                outline:none;
+            }
+
+            button{
+                width:70%;
+                height: 30px;
+                margin-top: 10%;
+                font-size: 16px;
+                background-color: #0b445a;
+                color: #ffffff;
+                border: none;
+                border-radius: 3px;
+                
+
+            }
+            button:hover{
+                cursor: pointer;
+            }
+            .forgot-pw{
+                display: flex;
+                justify-content: left;
+            }
+
+           
+        }
+    }
+   
+}

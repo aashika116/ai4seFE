@@ -1,0 +1,16 @@
+.register{
+    display: flex;
+    flex-direction: row;
+    .left-panel{
+        width: 50%;
+        .container{
+            h1{
+
+            }
+        }
+    }
+    .right-panel{
+        width: 50%;
+
+    }
+}
