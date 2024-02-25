@@ -64,7 +64,7 @@ function Chatbot() {
     <div className="homepage-container">
       
       <div className="documents-section">
-        <h2>Documents</h2>
+        <p>Documents</p>
         {/* Add content for documents section here */}
       </div>
       <div className="chatbot-container">
@@ -92,7 +92,7 @@ function Chatbot() {
 
       {/* Heading for Process Assessment */}
       <div className="process-assessment">
-        <h2> Process assessment </h2>
+        <p> Process assessment </p>
       </div>
 
       {/* Floating boxes */}
