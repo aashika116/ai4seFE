@@ -1,4 +1,3 @@
-//Shruti Khule
 import React, { useState } from 'react'
 import '../Register/Register.scss'
 import axios from 'axios'
@@ -66,15 +65,16 @@ const Register = () => {
                 <input type="text" name='name' placeholder='Enter Name' onChange={handleChange}/>
                 <input type="text" name='email' placeholder='Enter Email' onChange={handleChange}/>
                 <input type="password" name='password' placeholder='Create Password' onChange={handleChange}/>
-                {<p className='error'>{passwordError}</p>}
+                {<p className='error'>{error}</p>}
 
                 <input type="password" name='password_verify' placeholder='Verify Password' onChange={handleChange}/>
-                {<p className='error'>{passwordVerifyError}</p>}
+                {<p className='error'>{error}</p>}
                 <button onClick={handleClick}>Register</button>
                 
         </div>
         <div className='info'>
-            <p style={{marginTop:"8%"}}>Already have an account? <Link to="/login" className='link'>Login</Link></p>
+            <p>Forgot Password?</p>
+            <p style={{"margin-top":"8%"}}>Already have an account? <Link to="/login">Login</Link></p>
         </div>
         </div>
         <div className='right-panel'>

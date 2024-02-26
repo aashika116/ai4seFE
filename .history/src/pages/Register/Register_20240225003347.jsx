@@ -1,4 +1,3 @@
-//Shruti Khule
 import React, { useState } from 'react'
 import '../Register/Register.scss'
 import axios from 'axios'
@@ -74,7 +73,8 @@ const Register = () => {
                 
         </div>
         <div className='info'>
-            <p style={{marginTop:"8%"}}>Already have an account? <Link to="/login" className='link'>Login</Link></p>
+            <p>Forgot Password?</p>
+            <p style={{margin-top:"8%"}}>Already have an account? <Link to="/login">Login</Link></p>
         </div>
         </div>
         <div className='right-panel'>

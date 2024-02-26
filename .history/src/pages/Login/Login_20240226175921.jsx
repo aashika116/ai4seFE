@@ -1,4 +1,3 @@
-//Shruti Khule
 import React from 'react'
 import '../Login/Login.scss'
 import { Link,useNavigate } from 'react-router-dom'
