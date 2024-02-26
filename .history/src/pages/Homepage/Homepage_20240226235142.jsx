@@ -4,7 +4,7 @@ import './Homepage.scss';
 
 export const Homepage = () => {
 
-  
+  const ChatBot=()=>{
   // Define the questions and their corresponding solutions
     const questionSolutions = {
       "what is systems engineering": "Systems engineering is an interdisciplinary field of engineering and engineering management that focuses on how to design, integrate, and manage complex systems over their life cycles. At its core, systems engineering utilizes systems thinking principles to organize this body of knowledge. The individual outcome of such efforts, an engineered system, can be defined as a combination of components that work in synergy to collectively perform a useful function."
@@ -59,8 +59,8 @@ export const Homepage = () => {
       }
     }
   }
-
-
+}
+ChatBot()
 
   
 
