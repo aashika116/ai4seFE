@@ -67,6 +67,7 @@ const Homepage = () => {
       
       <div className="documents-section">
         <p>Documents</p>
+        <button>Upload Documents</button>
         {/* Add content for documents section here */}
       </div>
       <div className="chatbot-container">
